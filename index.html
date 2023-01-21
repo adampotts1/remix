@@ -43,12 +43,15 @@
 
         <div class="hero">
             <picture>
-                <img src="https://raw.githubusercontent.com/adampotts1/templeimage/main/manti_temple_lds.webp" alt="Manti Utah Temple">
+                <source media="(min-width: 640px)" srcset="https://raw.githubusercontent.com/adampotts1/templeimage/main/manti_temple_lds.webp">
+                <img src="https://raw.githubusercontent.com/adampotts1/templeimage/main/images.webp" loading="lazy" width="900px" height="450px" alt="Manti Utah Temple">
             </picture>
             <div class="herolabel">
                 <p>Manti Utah Temple</p>
             </div>
         </div>
+
+        
 
         <main>
             <h1 class="title">WDD 230: Course Activity Portal</h1>
@@ -77,9 +80,11 @@
             <section id= "information" class="card">
                 <h2>Information</h2>
                 <p id="weather"> Today's Weather:</p>
-                    <p id="visitors"> Visitor Count:</p>
+                    <p><span id="visitors"> Visitor Count: </span> <span class="visits"></span></p>
             </section>
         </main>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40732.18490300909!2d-111.95099940069043!3d40.64227978296332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1674277795736!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <footer>
         <p>© 2023 Adam Potts, Salt Lake City, Utah</p>
@@ -92,6 +97,7 @@
     <script src="script/getDates.js"></script>
     <script src="script/responsiveMenu.js"></script>
     <script src="script/darkMode.js"></script>
+    <script src="script/visitors.js"></script>
 
 </body>
 </html>

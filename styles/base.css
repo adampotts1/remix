@@ -116,34 +116,47 @@ footer {
 
 
 .hero {
-	margin: 10px auto;
-	position: relative;
-	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
+    margin: 10px auto;
+    position: relative;
+    height: 400px;
 }
 
 .hero img {
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    
 }
 
 .herolabel {
-	position: absolute;
-	top: 15px;
-	left: 130px;
-	background: radial-gradient(#fff, #4D5B97);
-	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.5rem;
-	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
-	
+    position: absolute;
+    top: 250px;
+    left: 35em;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
 }
 
 .herolabel p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 2rem;
-	font-family:"Great Vibes", serif;
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:block;
+}
+
+.highlight {
+    color: red;
+}
+
+.visits {
+    color: red;
 }
